@@ -6,8 +6,8 @@
     <title>架空のNPO</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50">
-    <header class="flex flex-col md:flex-row w-full fixed p-2">
+<body>
+    <header class="bg-gray-50 fixed top-0 left-0 right-0 z-10 flex flex-col md:flex-row w-full p-2">
         <img src="./NPO logo.png" alt="NPOのロゴ" class="w-16 h-16">
         <a href="#" class="bg-sky-100 rounded-lg mx-auto my-auto p-1">お問い合わせ</a>
         <a href="#" class="bg-sky-100 rounded-lg mx-auto my-auto p-1">スポンサー</a>
@@ -15,6 +15,29 @@
             <img src="./instagram.jpg" alt="インスタのロゴ">
         </a>
     </header>
+    <main class="bg-sky-50 mt-20">
+        <h1 class="text-4xl font-bold pl-4 py-6">活動内容</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 text-center gap-4 p-6">
+        <div>
+            <div class="bg-yellow-50 rounded-xl">
+                <img src="./well water.jpg" alt="井戸の水" class="w-48 h-48 mx-auto">
+                <h2 class="text-xl font-bold">井戸水の整備</h2>
+            </div>
+        </div>
+        <div>
+            <div class="bg-yellow-50 rounded-xl">
+                <img src="./school constraction.png" alt="学校建設" class="w-48 h-48 mx-auto">
+                <h2 class="text-xl font-bold">学習環境の整備</h2>
+            </div>
+        </div>
+        <div>
+            <div class="bg-yellow-50 rounded-xl">
+                <img src="./advisor.jpg" alt="アドバイザー" class="w-48 h-48 mx-auto">
+                <h2 class="text-xl font-bold">雇用機会の提供</h2>
+            </div>
+        </div>
+        </div>
+    </main>
     
 </body>
 </html>
